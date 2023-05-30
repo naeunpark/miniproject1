@@ -83,7 +83,8 @@ body {
 
 /* Category nav */
 
-#categoriesContainer a {
+#categoriesContainer a,
+.category {
     padding: 0.3rem;
     margin: 0.2rem;
     border: 2px solid var(--primary-color);

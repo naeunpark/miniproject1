@@ -61,6 +61,7 @@ class Book {
             a.innerText = category;
             let trim = category.split(' ').join('').toLowerCase();
             a.href = `categories.html#${trim}`;
+            a.classList.add("category")
             detailsContainer.appendChild(a);
         })
     }
