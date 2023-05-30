@@ -10,7 +10,7 @@ async function limitedDataFetch(books) {
         let link = template.querySelector('a');
 
         image.src = book['formats']['image/jpeg'];
-        link.href = `/book.html?id=${book['id']}`;
+        link.href = `book.html?id=${book['id']}`;
         bestseller.appendChild(template);
         popularBook.push(book);
     }

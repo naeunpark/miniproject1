@@ -60,7 +60,7 @@ class Book {
             let a = document.createElement('a');
             a.innerText = category;
             let trim = category.split(' ').join('').toLowerCase();
-            a.href = `/categories.html#${trim}`;
+            a.href = `categories.html#${trim}`;
             detailsContainer.appendChild(a);
         })
     }

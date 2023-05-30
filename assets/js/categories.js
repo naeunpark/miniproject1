@@ -19,7 +19,7 @@ function dataFetchByCategory() {
             let a = document.createElement('a');
             let image = new Image();
 
-            a.href = `/book.html?id=${book.id}`;
+            a.href = `book.html?id=${book.id}`;
             image.src = book['formats']['image/jpeg'];
 
             div.classList.add("mb-5", "book");

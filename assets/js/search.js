@@ -13,7 +13,7 @@ function dataFetch(books) {
             let link = template.querySelector('a');
 
             image.src = book['formats']['image/jpeg'];
-            link.href = `/book.html?id=${book['id']}`;
+            link.href = `book.html?id=${book['id']}`;
             searchResults.appendChild(template);
         })
     }
